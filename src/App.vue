@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    
   </div>
 </template>
 
@@ -28,6 +27,5 @@ const router = new VueRouter({ routes });
 
 export default {
   router,
-
 };
 </script>

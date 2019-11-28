@@ -306,8 +306,17 @@ h1 {
     padding: 20px 15px;
   }
 }
-.main {
-  margin-top: 39px;
+.main__user_visit {
+  text-align: right;
+  width: 100%;
+  font-family: "OpenSans-Bold", sans-serif;
+  margin: 10px 0;
+  color: #636363;
+}
+@media (max-width: 767px) {
+  .main__user_visit {
+    text-align: center;
+  }
 }
 .main__calc_panel {
   background: white;
@@ -509,7 +518,7 @@ h1 {
   font-family: "OpenSans-Bold", sans-serif;
   color: #636363;
   font-size: 20px;
-  margin: 0 0 23px 10px;
+  margin: 0 0 23px 0;
 }
 @media (max-width: 767px) {
   .main__product_container .main__card_panel .main__product h3 {
