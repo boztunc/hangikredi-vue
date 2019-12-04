@@ -1,4 +1,4 @@
-# hangikredi_vue
+# vuejs_example
 
 ## Project setup
 ```
